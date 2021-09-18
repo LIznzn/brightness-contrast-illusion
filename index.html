@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ミュラーリヤー錯視テスト</title>
+		<script src="jspsych/jspsych.js"></script>
+		<script src="jspsych/plugins/jspsych-html-keyboard-response.js"></script>
+		<script src="jspsych/plugins/jspsych-image-keyboard-response.js"></script>
+		<script src="jspsych/plugins/jspsych-preload.js"></script>
+		<link rel="stylesheet" href="jspsych/css/jspsych.css" />
+		<link rel="stylesheet" href="experiment-image.css" />
+	</head>
+	<body></body>
+	<script>
+		var timeline = [];
+
+		/* define instructions trial */
+		var instructions = {
+			type: 'html-keyboard-response',
+			stimulus: `
+                	<p>ミュラーリヤー錯視(恒常法)</p>
+					<p>左の図形と右の図形，どちらの内部画像（円形）の色が濃く見えますか？</p>
+					<p>キー押しで回答する場合：左の場合 <font color="red">F</font> , 右の場合 <font color="red">J</font> を押す｡
+					途中で止める場合には，<font color="pink">Esc</font>ボタンを押し，当該画面を閉じて下さい｡</p>
+					<p>Press any key to continue</p>
+            `
+			// post_trial_gap: 2000
+		};
+
+		/* define welcome message trial */
+		var welcome = {
+			type: 'html-keyboard-response',
+			stimulus: `
+					<p>テストをはじめ！</p>
+					<p>Press any key to continue</p>
+			`
+		};
+
+		var fixation = {
+			type: 'html-keyboard-response',
+			stimulus: '<div style="font-size:60px;">ブレークタイム</div>',
+			choices: jsPsych.NO_KEYS,
+			trial_duration: function () {
+				return jsPsych.randomization.sampleWithoutReplacement(
+					[250, 500, 750, 1000, 1250, 1500, 1750, 2000],
+					1
+				)[0];
+			},
+			data: {
+				task: 'fixation'
+			}
+		};
+
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', './data.json');
+		xhr.send();
+
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState == 4 && xhr.status == 200) {
+				var jsonString = xhr.responseText;
+				var jsonObj = JSON.parse(jsonString);
+				var stimuli_data = jsonObj.data;
+				console.log(stimuli_data instanceof Array);
+
+				/* trials */
+				var stimuli = [];
+
+				stimuli_data.forEach((element) => {
+					stimuli.push({
+						stimulus: `<div>
+								<div class="box" style="background-color: hsl(0,0%,${element.bg1});">
+									<div class="item" style="background-color: hsl(0,0%,${element.color1}"></div>
+								</div>
+								<div class="interval"></div>
+								<div class="box" style="background-color: hsl(0,0%,${element.bg2});">
+									<div class="item" style="background-color: hsl(0,0%,${element.color2}"></div>
+								</div>
+								<p>左の図形と右の図形，どちらの内部画像（円形）の色が濃く見えますか？</p>
+								<p>キー押しで回答する場合：左の場合 <font color="red">F</font> , 右の場合 <font color="red">J</font> を押す｡
+								途中で止める場合には，<font color="pink">Esc</font>ボタンを押し，当該画面を閉じて下さい｡</p>
+							</div>`,
+						correct_response: element.correct_response
+					});
+				});
+
+				var main = {
+					type: 'html-keyboard-response',
+					stimulus: jsPsych.timelineVariable('stimulus'),
+					choices: ['f', 'j'],
+					data: {
+						task: 'response',
+						correct_response:
+							jsPsych.timelineVariable('correct_response')
+					},
+					on_finish: function (data) {
+						data.correct = jsPsych.pluginAPI.compareKeys(
+							data.response,
+							data.correct_response
+						);
+					}
+				};
+
+				var procedure = {
+					timeline: [fixation, main],
+					timeline_variables: stimuli
+				};
+				timeline.push(instructions);
+
+				timeline.push(welcome);
+
+				timeline.push(procedure);
+
+				/* start the experiment */
+				jsPsych.init({
+					timeline: timeline,
+					on_finish: function () {
+						jsPsych.data.displayData();
+					}
+				});
+			}
+		};
+	</script>
+</html>

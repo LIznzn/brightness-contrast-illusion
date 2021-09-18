@@ -1,0 +1,144 @@
+{
+	"data": [
+		{
+			"color1": "25%",
+			"bg1": "5%",
+			"color2": "75%",
+			"bg2": "95%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "30%",
+			"bg1": "10%",
+			"color2": "60%",
+			"bg2": "80%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "55%",
+			"bg1": "35%",
+			"color2": "35%",
+			"bg2": "55%",
+			"correct_response": "j"
+		},
+		{
+			"color1": "50%",
+			"bg1": "70%",
+			"color2": "40%",
+			"bg2": "20%",
+			"correct_response": "j"
+		},
+		{
+			"color1": "43%",
+			"bg1": "23%",
+			"color2": "48%",
+			"bg2": "68%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "43%",
+			"bg1": "33%",
+			"color2": "48%",
+			"bg2": "58%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "40%",
+			"bg1": "30%",
+			"color2": "50%",
+			"bg2": "60%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "35%",
+			"bg1": "25%",
+			"color2": "55%",
+			"bg2": "65%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "60%",
+			"bg1": "70%",
+			"color2": "30%",
+			"bg2": "20%",
+			"correct_response": "j"
+		},
+		{
+			"color1": "25%",
+			"bg1": "15%",
+			"color2": "75%",
+			"bg2": "85%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "43%",
+			"bg1": "38%",
+			"color2": "48%",
+			"bg2": "53%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "40%",
+			"bg1": "35%",
+			"color2": "50%",
+			"bg2": "55%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "35%",
+			"bg1": "30%",
+			"color2": "55%",
+			"bg2": "60%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "30%",
+			"bg1": "25%",
+			"color2": "60%",
+			"bg2": "65%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "75%",
+			"bg1": "80%",
+			"color2": "25%",
+			"bg2": "20%",
+			"correct_response": "j"
+		},
+		{
+			"color1": "25%",
+			"bg1": "10%",
+			"color2": "75%",
+			"bg2": "90%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "60%",
+			"bg1": "75%",
+			"color2": "30%",
+			"bg2": "15%",
+			"correct_response": "j"
+		},
+		{
+			"color1": "35%",
+			"bg1": "50%",
+			"color2": "55%",
+			"bg2": "40%",
+			"correct_response": "f"
+		},
+		{
+			"color1": "50%",
+			"bg1": "65%",
+			"color2": "40%",
+			"bg2": "25%",
+			"correct_response": "j"
+		},
+		{
+			"color1": "48%",
+			"bg1": "63%",
+			"color2": "43%",
+			"bg2": "28%",
+			"correct_response": "j"
+		}
+	]
+}

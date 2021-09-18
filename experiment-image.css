@@ -1,0 +1,36 @@
+.box {
+	display: inline-block;
+	position: relative;
+	height: 400px;
+	width: 400px;
+}
+
+.box_example {
+	display: inline-block;
+	position: relative;
+	height: 200px;
+	width: 200px;
+}
+
+.item {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 100px;
+	left: 100px;
+	border-radius: 0%;
+}
+
+.item_example {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	top: 50px;
+	left: 50px;
+	border-radius: 50%;
+}
+
+.interval {
+	display: inline-block;
+	width: 100px;
+}
