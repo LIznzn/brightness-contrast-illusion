@@ -70,14 +70,14 @@
 				stimuli_data.forEach((element) => {
 					stimuli.push({
 						stimulus: `<div>
-								<div class="box" style="background-color: hsl(0,0%,${element.bg1});">
-									<div class="item" style="background-color: hsl(0,0%,${element.color1}"></div>
+								<div class="box" style="background-color: rgb(${element.bg1},${element.bg1},${element.bg1});">
+									<div class="item" style="background-color: rgb(${element.color1},${element.color1},${element.color1}"></div>
 								</div>
 								<div class="interval"></div>
-								<div class="box" style="background-color: hsl(0,0%,${element.bg2});">
-									<div class="item" style="background-color: hsl(0,0%,${element.color2}"></div>
+								<div class="box" style="background-color: rgb(${element.bg2},${element.bg2},${element.bg2})">
+									<div class="item" style="background-color: rgb(${element.color2},${element.color2},${element.color2}"></div>
 								</div>
-								<p>左の図形と右の図形，どちらの内部画像（円形）の色が濃く見えますか？</p>
+								<p>左の図形と右の図形，どちらの内部画像がより明るい見えますか？</p>
 								<p>キー押しで回答する場合：左の場合 <font color="red">F</font> , 右の場合 <font color="red">J</font> を押す｡
 								途中で止める場合には，<font color="pink">Esc</font>ボタンを押し，当該画面を閉じて下さい｡</p>
 							</div>`,

@@ -1,143 +1,213 @@
 {
 	"data": [
 		{
-			"color1": "25%",
-			"bg1": "5%",
-			"color2": "75%",
-			"bg2": "95%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "30%",
-			"bg1": "10%",
-			"color2": "60%",
-			"bg2": "80%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "55%",
-			"bg1": "35%",
-			"color2": "35%",
-			"bg2": "55%",
+			"color1": "125",
+			"bg1": "125",
+			"color2": "130",
+			"bg2": "130",
 			"correct_response": "j"
 		},
 		{
-			"color1": "50%",
-			"bg1": "70%",
-			"color2": "40%",
-			"bg2": "20%",
+			"color1": "125",
+			"bg1": "125",
+			"color2": "135",
+			"bg2": "135",
 			"correct_response": "j"
 		},
 		{
-			"color1": "43%",
-			"bg1": "23%",
-			"color2": "48%",
-			"bg2": "68%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "43%",
-			"bg1": "33%",
-			"color2": "48%",
-			"bg2": "58%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "40%",
-			"bg1": "30%",
-			"color2": "50%",
-			"bg2": "60%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "35%",
-			"bg1": "25%",
-			"color2": "55%",
-			"bg2": "65%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "60%",
-			"bg1": "70%",
-			"color2": "30%",
-			"bg2": "20%",
+			"color1": "125",
+			"bg1": "125",
+			"color2": "140",
+			"bg2": "140",
 			"correct_response": "j"
 		},
 		{
-			"color1": "25%",
-			"bg1": "15%",
-			"color2": "75%",
-			"bg2": "85%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "43%",
-			"bg1": "38%",
-			"color2": "48%",
-			"bg2": "53%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "40%",
-			"bg1": "35%",
-			"color2": "50%",
-			"bg2": "55%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "35%",
-			"bg1": "30%",
-			"color2": "55%",
-			"bg2": "60%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "30%",
-			"bg1": "25%",
-			"color2": "60%",
-			"bg2": "65%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "75%",
-			"bg1": "80%",
-			"color2": "25%",
-			"bg2": "20%",
+			"color1": "125",
+			"bg1": "125",
+			"color2": "145",
+			"bg2": "145",
 			"correct_response": "j"
 		},
 		{
-			"color1": "25%",
-			"bg1": "10%",
-			"color2": "75%",
-			"bg2": "90%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "60%",
-			"bg1": "75%",
-			"color2": "30%",
-			"bg2": "15%",
+			"color1": "125",
+			"bg1": "125",
+			"color2": "150",
+			"bg2": "150",
 			"correct_response": "j"
 		},
 		{
-			"color1": "35%",
-			"bg1": "50%",
-			"color2": "55%",
-			"bg2": "40%",
-			"correct_response": "f"
-		},
-		{
-			"color1": "50%",
-			"bg1": "65%",
-			"color2": "40%",
-			"bg2": "25%",
+			"color1": "125",
+			"bg1": "125",
+			"color2": "155",
+			"bg2": "155",
 			"correct_response": "j"
 		},
 		{
-			"color1": "48%",
-			"bg1": "63%",
-			"color2": "43%",
-			"bg2": "28%",
+			"color1": "125",
+			"bg1": "125",
+			"color2": "160",
+			"bg2": "160",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "125",
+			"color2": "165",
+			"bg2": "165",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "125",
+			"color2": "170",
+			"bg2": "170",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "125",
+			"color2": "175",
+			"bg2": "175",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "130",
+			"color2": "130",
+			"bg2": "135",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "130",
+			"color2": "135",
+			"bg2": "140",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "130",
+			"color2": "140",
+			"bg2": "145",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "130",
+			"color2": "145",
+			"bg2": "150",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "130",
+			"color2": "150",
+			"bg2": "155",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "130",
+			"color2": "155",
+			"bg2": "160",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "130",
+			"color2": "160",
+			"bg2": "165",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "130",
+			"color2": "165",
+			"bg2": "170",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "130",
+			"color2": "170",
+			"bg2": "175",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "130",
+			"color2": "175",
+			"bg2": "180",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "135",
+			"color2": "130",
+			"bg2": "140",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "135",
+			"color2": "135",
+			"bg2": "145",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "135",
+			"color2": "140",
+			"bg2": "150",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "135",
+			"color2": "145",
+			"bg2": "155",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "135",
+			"color2": "150",
+			"bg2": "160",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "135",
+			"color2": "155",
+			"bg2": "165",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "135",
+			"color2": "160",
+			"bg2": "170",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "135",
+			"color2": "165",
+			"bg2": "175",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "135",
+			"color2": "170",
+			"bg2": "180",
+			"correct_response": "j"
+		},
+		{
+			"color1": "125",
+			"bg1": "135",
+			"color2": "175",
+			"bg2": "185",
 			"correct_response": "j"
 		}
 	]
